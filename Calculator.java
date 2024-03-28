@@ -4,7 +4,6 @@ class Calculator{
 public static void main(String args[]){
 int a;
 int b;
-
 Scanner num1=new Scanner(System.in);
 System.out.println("Enter  first number :");
 a=num1.nextInt();
@@ -17,15 +16,5 @@ System.out.println("the subtraction of the given number is:" + (a-b));
 System.out.println("the division of the given number is:" + (a/b ));
 System.out.println("the multipication of the given number is:"+ (a*b));
 System.out.println("the reminder of the given number is:" + (a%b));
-
-
-
-
-
-
-
 }
-
-
-
 }
